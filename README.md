@@ -6,7 +6,7 @@
 
 - **Website Online**: [Frontend Intern - Rifki Ilham Lutfika](https://frontend-intern-rifki-ilham-lutfika.netlify.app/)
 - **GitHub Repository**: [FrontendDevReactjs-Rifki_Ilham_Lutfika](https://github.com/Rilkayt/FrontendDevReactjs-Rifki_Ilham_Lutfika)
-- **Netlify Project** : [Frontend Intern - Netlify ](https://app.netlify.com/sites/frontend-intern-rifki-ilham-lutfika/configuration/general#danger-zone)
+- **Netlify Project** : [Frontend Intern - Netlify ](https://app.netlify.com/sites/frontend-intern-rifki-ilham-lutfika/configuration/general)
 - **API**: [API Restaurant](https://api-restaurant-gules.vercel.app/api/data)
 
 ## Catatan
