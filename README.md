@@ -31,6 +31,68 @@
 | **TailwindCSS**        | ^3.4.17     |
 | **Vite**               | ^6.0.5      |
 
+## Kendala
+
+Saya mengalami kendala pada fitur **Maps**, yaitu:
+
+- **Masalah**: Maps berhasil muncul dan dapat digunakan, namun gambarnya tidak tampil secara penuh (load tidak sempurna).
+- **Analisis**: Kemungkinan disebabkan oleh:
+  1. Koneksi internet yang tidak stabil.
+  2. Permasalahan lain terkait rendering atau konfigurasi maps.
+- **Upaya yang Dilakukan**:
+  - Mencoba berkali-kali dengan koneksi internet yang memadai, namun hasilnya tetap sama.
+
+## Status
+
+Proyek ini telah selesai dikerjakan. ✅
+
+## Pengalaman
+
+Dalam mengerjakan proyek ini, saya mendapatkan beberapa pembelajaran dan tantangan, khususnya terkait dengan filtering data dan load more API. Berikut adalah penjelasan detailnya:
+
+### 1. **Filtering Data**
+
+- **Masalah**: Filtering data idealnya dilakukan di sisi **backend** untuk mengurangi beban pada **client**. Namun, karena dua filter perlu dilakukan di sisi **frontend**, semua data harus ditampung oleh **client**.
+- **Dampak**:
+  - **Frontend** menjadi lebih berat karena harus memproses semua data.
+  - **Backend** hanya terbebani pada saat pengambilan data awal, namun setelah itu menjadi ringan.
+- **Keuntungan dan Risiko**:
+  - Untuk dataset kecil (~17 data), metode ini masih dapat diterima.
+  - Jika dataset besar, beban di sisi **frontend** akan meningkat secara signifikan.
+- **Solusi Filtering Harga**:
+
+  - Saya menerapkan logika untuk mengambil nilai harga **tertinggi** dari setiap restoran.
+  - Filter yang digunakan adalah:
+    - `<= 50K`, `51K - 150K`, `151K - 300K`, `301K - 1000K`, dan `> 1000K`.
+  - Contoh:
+    - Restoran A (harga 20K - 40K): Masuk ke filter `<= 50K`.
+    - Restoran B (harga 10K - 300K): Masuk ke filter `151K - 300K` (berdasarkan harga tertinggi).
+
+  **Alasan Batasan Filter**:
+
+  - Dengan pendekatan ini, setiap restoran hanya masuk ke satu filter sesuai kategori.
+  - Jika menggunakan rentang tanpa batasan, seperti `<50K`, `<100K`, `<150K`, maka restoran dapat masuk ke beberapa kategori sekaligus, yang kurang optimal.
+
+### 2. **Load More API**
+
+- **Pendekatan**:
+  - Menggunakan metode **limit** dan **skip** pada pemanggilan data API.
+  - Dengan cara ini, **frontend** tidak perlu memuat seluruh data sekaligus, sehingga beban **client** lebih ringan.
+  - **Backend** hanya mengirim data dalam jumlah kecil sesuai kebutuhan.
+- **Keuntungan**:
+  - Keseimbangan antara **frontend** dan **backend** dapat tercapai.
+  - Menghindari pemborosan resource jika dataset besar.
+
+---
+
+### Kesimpulan
+
+Melalui pengalaman ini, saya memahami pentingnya:
+
+1. Menentukan lokasi pemrosesan data (frontend vs backend) sesuai kebutuhan.
+2. Mengoptimalkan performa dengan metode seperti **limit** dan **skip**.
+3. Membuat batasan filter yang logis untuk meningkatkan akurasi hasil.
+
 ## Instalasi
 
 1. **Clone repository** ke mesin lokal:
@@ -55,3 +117,13 @@
    ```bash
    http://localhost:5173/
    ```
+
+## Salam Hangat 🤝
+
+Terima Kasih Bapak Ibu HRD - Sekawan Media
+Yang telah memberikan kesempatan kepada saya untuk mengikuti technical test untuk program instership ini
+
+Tentu dari project ini masih ada yang kurang , maka saya terbuka kepada bapak ibu Sekawan Media atas masukan, kritik dan saran 🌟
+
+**Salam hangat,**  
+**Rifki Ilham Lutfika**
