@@ -9,11 +9,13 @@
 - **Netlify Project** : [Frontend Intern - Netlify ](https://app.netlify.com/sites/frontend-intern-rifki-ilham-lutfika/configuration/general)
 - **API**: [API Restaurant](https://api-restaurant-gules.vercel.app/api/data)
 
+---
+
 ## API Enpoint
 
-- **All List**:[/](https://api-restaurant-gules.vercel.app/api/data)
-- **Detail Data**:[/:id](https://api-restaurant-gules.vercel.app/api/data/ghi789)
-- **List By Categories**:[/categories/:id](https://api-restaurant-gules.vercel.app/api/data/categories/Japan)
+- **All List**: [/](https://api-restaurant-gules.vercel.app/api/data)
+- **Detail Data**: [/:id](https://api-restaurant-gules.vercel.app/api/data/ghi789)
+- **List By Categories**: [/categories/:id](https://api-restaurant-gules.vercel.app/api/data/categories/Japan)
 
 ## Catatan
 
