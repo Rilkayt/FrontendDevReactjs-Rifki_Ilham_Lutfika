@@ -15,7 +15,7 @@
 
 - **All List**: [/](https://api-restaurant-gules.vercel.app/api/data)
 - **Detail Data**: [/:id](https://api-restaurant-gules.vercel.app/api/data/ghi789)
-- **List By Categories**: [/categories/:id](https://api-restaurant-gules.vercel.app/api/data/categories/Japan)
+- **List By Categories**: [/categories/:categorie](https://api-restaurant-gules.vercel.app/api/data/categories/Japan)
 
 ## Catatan
 
