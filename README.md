@@ -6,6 +6,7 @@
 
 - **Website Online**: [Frontend Intern - Rifki Ilham Lutfika](https://frontend-intern-rifki-ilham-lutfika.netlify.app/)
 - **GitHub Repository**: [FrontendDevReactjs-Rifki_Ilham_Lutfika](https://github.com/Rilkayt/FrontendDevReactjs-Rifki_Ilham_Lutfika)
+- **Netlify Project** : [Frontend Intern - Netlify ](https://app.netlify.com/sites/frontend-intern-rifki-ilham-lutfika/configuration/general#danger-zone)
 - **API**: [API Restaurant](https://api-restaurant-gules.vercel.app/api/data)
 
 ## Catatan
@@ -13,6 +14,8 @@
 - API ini **tanpa menggunakan credential key** (pribadi).
 
 - Pastikan Device Tersambung Ke Internet Dikarenakan Ada Beberapa Gambar Yang Membutuhkan Load Internet Yang Cukup
+
+- Untuk akun github : username `Rilkayt` & password `Rifki25$6`
 
 ### Information Tecnology 🌟
 
@@ -30,6 +33,51 @@
 | **React-Star-Ratings** | ^2.3.0      |
 | **TailwindCSS**        | ^3.4.17     |
 | **Vite**               | ^6.0.5      |
+
+---
+
+## Instalasi
+
+1. **Clone repository** ke mesin lokal:
+
+   ```bash
+   git clone https://github.com/Rilkayt/FrontendDevReactjs-Rifki_Ilham_Lutfika.git
+   ```
+
+2. \*\*Masuk ke folder proyek:
+
+   ```bash
+   cd FrontEnd-Developer_SM
+   ```
+
+3. Install dependencies: Jika menggunakan npm:
+
+   ```bash
+   npm install
+   ```
+
+   Jika menggunakan yarn :
+
+   ```bash
+   yarn install
+   ```
+
+4. Jalankan aplikasi: Jika menggunakan npm:
+
+   ```bash
+   npm run dev
+   ```
+
+   Jika menggunakan yarn :
+
+   ```bash
+   yarn dev
+   ```
+
+5. Akses aplikasi di browser: Buka browser dan kunjungi:
+   ```bash
+   http://localhost:5173/
+   ```
 
 ## Kendala
 
@@ -92,31 +140,6 @@ Melalui pengalaman ini, saya memahami pentingnya:
 1. Menentukan lokasi pemrosesan data (frontend vs backend) sesuai kebutuhan.
 2. Mengoptimalkan performa dengan metode seperti **limit** dan **skip**.
 3. Membuat batasan filter yang logis untuk meningkatkan akurasi hasil.
-
-## Instalasi
-
-1. **Clone repository** ke mesin lokal:
-
-   ```bash
-   git clone https://github.com/Rilkayt/FrontendDevReactjs-Rifki_Ilham_Lutfika.git
-   ```
-
-2. \*\*Masuk ke folder proyek:
-   ```bash
-   cd FrontEnd-Developer_SM
-   ```
-3. Install dependencies: Jika menggunakan npm:
-   ```bash
-   npm install
-   ```
-4. Jalankan aplikasi: Jika menggunakan npm:
-   ```bash
-   npm run dev
-   ```
-5. Akses aplikasi di browser: Buka browser dan kunjungi:
-   ```bash
-   http://localhost:5173/
-   ```
 
 ## Salam Hangat 🤝
 
